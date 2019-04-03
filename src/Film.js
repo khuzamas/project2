@@ -10,6 +10,7 @@ export default class Film extends Component {
   }
   render() {
     // console.log(this.props.filmObj.title);
+    // console.log(this.props.film);
     
     return (
       <div className="film" onClick={() => this.props.detailsHandle(this.props.film)}>

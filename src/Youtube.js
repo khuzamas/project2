@@ -10,7 +10,7 @@ state= {
 }
 render() {
       const key= 'AIzaSyCrd3PrjkScRG1BJ_a4G6Qyy0U43ngfQpk';
-      const url= `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=1&order=relevance&q=${this.props.filmTitle}+trailer&key=${key}`
+      const url= `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=1&order=relevance&q=${this.props.filmTitle}+disney+trailer&key=${key}`
 
       var result= '';
     

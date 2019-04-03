@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script src="https://sdk.scdn.co/spotify-player.js"></script>
+<script>
+window.onSpotifyWebPlaybackSDKReady = () => {
+  const userAccessToken = "BQCHiaph9cjgKNnmZbi-DLbD-70uIGZbi3VHuIaPMADYDghKVi5wQP0FRhq80DmR-b0ArirPqMpwZ6Hz5zQ7D7V-Tnd3wlFLkg1ksEqHzyY5yA87UQkN_BQQrRkvCkLRCKucP4MLf1FXrVsw1lN2X6hF5H1NlTxifIn4cck";
+  const webPlayback = new Spotify.Player({
+    name: "Spotify Web Playback SDK",
+    getOAuthToken: callback => { callback(token)}
+  });
+  webPlayback.connect();
+};
+</script>
+</body>
+</html>

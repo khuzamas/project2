@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import Youtube from './Youtube';
+import Spotify from './Spotify';
 
 export default class FilmDetails extends Component {
   render() {
-      console.log('in details.js');
+      // console.log('in details.js');
       var date= new Date (this.props.film.release_date);
-      console.log(date);
+      // console.log(date);
       
     return (
       <div className="detailsCard">
@@ -21,8 +22,12 @@ export default class FilmDetails extends Component {
         </div>
         <div className="clear"></div>
         <div className="video">
-        Watch Trailer Below
-            <Youtube filmTitle={this.props.film.title}/>
+          Watch Trailer Below
+            {/* <Youtube filmTitle={this.props.film.title}/> */}
+        </div>
+        <div className="Album">
+          Listen to Album tracks
+          <Spotify filmTitle={this.props.film.title}/>
         </div>
         
 
