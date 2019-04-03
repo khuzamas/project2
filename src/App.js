@@ -111,6 +111,7 @@ class App extends Component {
 
     } else if (this.state.category==='songs') {
 
+      // var albums=[]
       var songsList= []
       TMDB.forEach(id => {
         
@@ -120,10 +121,11 @@ class App extends Component {
               
                 songsList.push(data);
             })
-            console.log(songsList);
+           this.setSatate({songs: songsList});
         })
       })
-
+      // console.log(albums);
+      
       
       
       // for (var x= 0; x < TMDB.length; x+=3) {
@@ -200,7 +202,7 @@ class App extends Component {
     const songChange= ((this.state.category) === 'songs') && (this.state.page) === ''? ' is-active' : ' inactive';
     const filmDetails= this.state.details;
     const filmList= this.state.filteredFilms;
-    // console.log(this.state.songs);
+    console.log(this.state.songs);
     
     return (
       <div className="App">
