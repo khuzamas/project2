@@ -12,7 +12,7 @@
 }
 
 body {
-  background-color:black;
+  background-color:#AEF1FF;
   /* background-image: url('https://cdn.wallpapersafari.com/97/48/CSuMVz.png');*/
 }
 
@@ -31,13 +31,13 @@ body {
   background-repeat: no-repeat;
   padding: 180px;
   font-family: waltDisney;
-  font-size: 30px;
+  font-size: 50px;
   color: aliceblue;
 }
 
 .categories {
   /* background-color: rgb(160, 160, 160); */
-  color: aliceblue;
+  color: #033554;
   font-size: 20px;
   display: flex;
   justify-content: space-evenly;
@@ -67,12 +67,13 @@ input {
 .filters {
   display: flex;
   justify-content: center;
-  color: red;
+  color: #033554;
+  font-size: 20px;
 }
 
 .filter{
   margin: 20px;
-  border: 2px red solid;
+  border: 3px red solid;
 
   padding: 20px;
   font-size: 18px;
@@ -100,7 +101,7 @@ input {
 
 .film {
   margin: 10px;
-  color: white;
+  color: #033554;
 }
 
 .inactive {
@@ -111,15 +112,19 @@ input {
   display: inline;
 }
 
+.filters .is-active {
+  display: block;
+}
+
 .details {
-  color: white;
+  color: #033554;
 }
 
 .clear {
   clear: both;
 }
 
-.detailsCard {
+/* .detailsCard {
   margin-left: 130px;
 }
 
@@ -131,15 +136,116 @@ input {
 .detailsCard .float-right {
   flex-direction: column;
   width: 500px;
-  /* padding-top: 50px; */
   text-align: left;
-}
+} */
 
+.detailsCard img{
+  /* padding: 180px; */
+  width: -webkit-fill-available;
+  height: fit-content;
+}
 .video {
   margin-right: 100px;
   margin-top: 30px;
 }
 
 .album {
+  color: #033554;
+}
+
+/* .favs {
+
+  display: flex;
+  flex-direction: row;
+}
+
+.favs .album {
+
+} */
+
+/* .favs .film img{
+  height: 150px;
+}
+
+.favs .film {
+  display: flex;
+  flex-direction: row;
+} */
+
+.options {
+  border: 3px solid #033554;
+  border-radius: 50%;
+  width: 100px;
+  height: 60px;
+  margin: 25px;
+  padding-top: 35px;
+  color: #033554;
+}
+
+/* .options p{
+  padding-top: 10px;
+} */
+
+.detailsCard .detailsheader {
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 250px;
+  font-family: waltDisney;
+  font-size: 50px;
   color: white;
+}
+
+.details-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.details-options div{
+  border: 3px solid #033554;
+  border-radius: 50%;
+  width: 100px;
+  height: 60px;
+  margin: 25px;
+  padding-top: 35px;
+  display: flex;
+  justify-content: center;
+  color: #033554;
+  font-size: 20px;
+}
+
+.navbar {
+  background-color: rgb(82, 167, 182);
+  /* padding: 10px; */
+  padding-bottom: 70px;
+}
+
+.navbar .is-active{
+  display: inherit;
+}
+
+.navbar img{
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin: 10px;
+  /* padding: 0; */
+}
+
+.Add-fav img {
+  width: 50px;
+  height: 50px;
+  float: right;
+}
+
+.info{
+  font-size: 20px;
+}
+
+.date {
+  font-weight: bold;
+}
+
+.overview {
+  font-weight: bold;
 }

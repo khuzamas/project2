@@ -25,14 +25,9 @@ export default class List extends Component {
         // const filmList= this.state.films;
         return (
         <div onClick= {() => this.props.handler(this.props.filter)}>
-            <div className="filter">
+            <div className="options">
                 {this.props.filter}
             </div>
-            
-            {/* <div className="list">
-               {filmList} 
-            </div> */}
-            
         </div>
         
         )
