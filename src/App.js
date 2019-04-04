@@ -257,7 +257,14 @@ class App extends Component {
 
   addToFav= (film) => {    
     var curr= {...this.state};
-    curr.favs.push(film)
+
+    if (this.state.favs.includes(film)) {
+      var index= curr.favs.indexOf(film)
+      curr.favs.splice(index, 1);
+    } else {
+      curr.favs.push(film)
+    }
+    
     this.setState(curr)
     // console.log(this.state);
     
