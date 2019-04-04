@@ -15,3 +15,7 @@ a collection of disney movies and songs (albums)
 3. Play songs in page
 4. Filter movies or songs categories by: Alphabatical order and release date
 
+## Future improvements/feature
+1. To-watch list
+2. CSS polishing
+3. Access the movie from the album page
