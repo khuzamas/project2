@@ -21,4 +21,4 @@ a collection of disney movies and songs (albums)
 3. Access the movie from the album page
 4. Search bar
 
-![alt text](https://imgur.com/CPHTNi7)
+![Image of Game](https://i.imgur.com/CPHTNi7.png)
