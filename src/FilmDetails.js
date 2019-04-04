@@ -26,7 +26,6 @@ export default class FilmDetails extends Component {
 
   handleTrailerClick= () => {
     const result= <div className="video">
-          Watch Trailer Below
           <br></br>
             <Youtube filmTitle={this.props.film.title}/>
         </div>
@@ -36,7 +35,6 @@ export default class FilmDetails extends Component {
 
   handleAlbumClick= () => {
     const result= <div className="Album">
-        Listen to Album tracks
         <br></br>
         <Spotify filmTitle={this.props.film.title}/>
       </div>

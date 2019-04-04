@@ -182,6 +182,18 @@ input {
   color: #033554;
 }
 
+.options:hover {
+  border: 6px solid #033554;
+  border-radius: 50%;
+  width: 100px;
+  height: 60px;
+  margin: 25px;
+  padding-top: 35px;
+  color: #033554;
+  font-weight: bold;
+}
+
+
 /* .options p{
   padding-top: 10px;
 } */
@@ -212,6 +224,20 @@ input {
   justify-content: center;
   color: #033554;
   font-size: 20px;
+}
+
+.details-options div:hover{
+  border: 6px solid #033554;
+  border-radius: 50%;
+  width: 100px;
+  height: 60px;
+  margin: 25px;
+  padding-top: 35px;
+  display: flex;
+  justify-content: center;
+  color: #033554;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .navbar {
