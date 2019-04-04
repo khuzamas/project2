@@ -312,8 +312,6 @@ class App extends Component {
       this.setState({displayedFavs: allFavs})
     }
 
-
-
     // this.setState({displayedFavs: allFavs})
   }
 

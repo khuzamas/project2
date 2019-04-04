@@ -19,3 +19,6 @@ a collection of disney movies and songs (albums)
 1. To-watch list
 2. CSS polishing
 3. Access the movie from the album page
+4. Search bar
+
+![alt text](https://imgur.com/CPHTNi7)
