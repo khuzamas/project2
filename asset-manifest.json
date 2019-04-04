@@ -1,14 +1,14 @@
 {
-  "main.css": "/project2/static/css/main.20f084b6.chunk.css",
-  "main.js": "/project2/static/js/main.5495e04e.chunk.js",
-  "main.js.map": "/project2/static/js/main.5495e04e.chunk.js.map",
+  "main.css": "/project2/static/css/main.9117564d.chunk.css",
+  "main.js": "/project2/static/js/main.fbc625e4.chunk.js",
+  "main.js.map": "/project2/static/js/main.fbc625e4.chunk.js.map",
   "runtime~main.js": "/project2/static/js/runtime~main.ab33e848.js",
   "runtime~main.js.map": "/project2/static/js/runtime~main.ab33e848.js.map",
   "static/js/2.cacdd780.chunk.js": "/project2/static/js/2.cacdd780.chunk.js",
   "static/js/2.cacdd780.chunk.js.map": "/project2/static/js/2.cacdd780.chunk.js.map",
   "index.html": "/project2/index.html",
-  "precache-manifest.68cabd39084fb2105ab7cc326c20a08d.js": "/project2/precache-manifest.68cabd39084fb2105ab7cc326c20a08d.js",
+  "precache-manifest.64b92627650ee34e1e343e927c1189a6.js": "/project2/precache-manifest.64b92627650ee34e1e343e927c1189a6.js",
   "service-worker.js": "/project2/service-worker.js",
-  "static/css/main.20f084b6.chunk.css.map": "/project2/static/css/main.20f084b6.chunk.css.map",
+  "static/css/main.9117564d.chunk.css.map": "/project2/static/css/main.9117564d.chunk.css.map",
   "static/media/App.css": "/project2/static/media/waltographUI.ef6f8e59.ttf"
 }
